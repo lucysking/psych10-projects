@@ -23,7 +23,7 @@ __q1__ Set up your environment by loading the needed packages and saving the fil
 #Load the packages you need here
 
 #Files
-#save the URL path that we provided to your data file 
+#save the path to your datafile
 # e.g., data_file <- "path"
 ```
 
@@ -33,10 +33,7 @@ __q2__ What question will you answer in your project?
 
 
 
-
-__q3__ Motivation: Why is this question interesting and/or important to ask?
-
-
+__q3__ Motivation: Why is this question interesting and/or important to ask? Ground your explanation in fact. Provide at least one example of how answering this question may be useful in the "real" world. 
 
 
 __q4__ Phrase your question in terms of a testable hypothesis. 
@@ -45,7 +42,7 @@ __q4__ Phrase your question in terms of a testable hypothesis.
 
 # The dataset
 
-__q5__ What publically available dataset will you use for your project? Provide a brief description of this dataset (e.g., who collected it and when, what data does it contain, why was it collected). 
+__q5__ What publically available dataset will you use for your project? Provide a brief description of this dataset (e.g., who collected it and when, what data does it contain, why was it collected, how were the data collected). 
 
 
 
@@ -67,7 +64,7 @@ __q8__  Use the glimpse() function take a look at your dataset. How many observa
 __q9__ Which variables will use to to test your hypothesis? Describe what they are. Include what types of variables they are (e.g., character, integer, etc.) and what their scales of measurement are. 
 
 
-# Data science challenges
+# Data challenges
 
 _q10_ Is the raw dataset "tidy" (https://r4ds.had.co.nz/tidy-data.html)? Why or why not?
 

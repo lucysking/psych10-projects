@@ -10,7 +10,7 @@ NOTE: Submit this file as a .Rmd file on Canvas.
 This is Milestone 2 of your project. The goals of Milestone 2 of your project are to:
 
 * Clean and wrangle your data and describe this process. 
-* Visualize and summarize your variables and interpret what you see.   
+* Visualize and summarize each of your variables and interpret what you see.  
 
 # Environment set up 
 
@@ -64,7 +64,7 @@ __q4__ Use `ggplot()` to create histograms (`geom_histogram` or `geom_col`) freq
 DESCRIPTION
 
 
-__q5__ Summarize each of the variables with the central tendency (and variance for ratio variables). If you have a grouping variables (e.g., country, school, age group), also summarize by group. Interpret your summary. 
+__q5__ Summarize each of the variables with the central tendency (and variance for ratio variables). If you have a group variable (e.g., country, school, age group), also summarize by group (hint: use the `group_by` function). Interpret your summary. 
 
 
 
