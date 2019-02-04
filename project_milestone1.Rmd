@@ -1,8 +1,6 @@
 ---
 title: "Psych 10 Project: Milestone 1"
-output: html_notebook:
-   toc: true
-   toc_float: true
+author: 
 ---
 
 NOTE: Submit this file as a .Rmd file on Canvas. 

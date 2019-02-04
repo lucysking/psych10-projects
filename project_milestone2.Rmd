@@ -1,8 +1,6 @@
 ---
 title: "Psych 10 Project: Milestone 2"
-output: html_notebook:
-   toc: true
-   toc_float: true
+output: html_document
 ---
 
 NOTE: Submit this file as a .Rmd file on Canvas. 
@@ -35,10 +33,10 @@ __q2__ Read in your data file using the appropriate function.
 
 # Data cleaning and wrangling
 
-__q3__ In Milestone 1, you described the necessary data cleaning and wrangling you would need to do to make it appropriate for analysis (q11). Perform this data cleaning below, as well as any additional cleaning/wrangling you need to do. For each data cleaning step, insert a separate chunk of code. For each step, explain why you are doing it in the whitespace below the chunk
+__q3__ In Milestone 1, you described the necessary data cleaning and wrangling you would need to do to make your data appropriate for analysis (q11). Perform this data cleaning below, as well as any additional cleaning/wrangling you need to do. For each data cleaning step, insert a separate chunk of code. For each step, explain why you are doing it in the whitespace below the chunk
 
 ```{r}
-#data cleaning
+
 ```
 
 DESCRIPTION
@@ -51,7 +49,7 @@ DESCRIPTION
 
 # Data visualization and summary 
 
-__q4__ Use `ggplot()` to create histograms (`geom_histogram` or `geom_col`) frequency polygons (`geom_freqpoly`) showing the distrbutions of each of the variables you are using to test your hypothesis. Only plot one variable per chunk of code. At the end, describe the distribution of each variable. 
+__q4__ Use `ggplot()` to create histograms (`geom_histogram` or `geom_col`) or frequency polygons (`geom_freqpoly`) showing the distrbutions of each of the variables you are using to test your hypothesis. Only plot one variable per chunk of code. At the end, describe the distribution of each variable. 
 
 ```{r}
 
@@ -64,7 +62,7 @@ __q4__ Use `ggplot()` to create histograms (`geom_histogram` or `geom_col`) freq
 DESCRIPTION
 
 
-__q5__ Summarize each of the variables with the central tendency (and variance for ratio variables). If you have a group variable (e.g., country, school, age group), also summarize by group (hint: use the `group_by` function). Interpret your summary. 
+__q5__ Summarize each of the variables with the central tendency (and standard deviation for ratio variables). If you have a group variable (e.g., country, school, age group), also summarize by group (hint: use the `group_by` function). Interpret your summary statistics in writing.  
 
 
 
